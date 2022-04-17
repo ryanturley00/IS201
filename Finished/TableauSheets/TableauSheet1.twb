@@ -16,11 +16,11 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='Orders (Global+Superstore-Dallin_Stirling (1))' inline='true' name='federated.0icspn51rjcn7a17wtmdl1378rvz' version='18.1'>
+    <datasource caption='Orders (Global+Superstore-Ryan_Turley (1))' inline='true' name='federated.0icspn51rjcn7a17wtmdl1378rvz' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='Global+Superstore-Dallin_Stirling (1)' name='excel-direct.1e1bvfz0r6v6uj10weu0217knfm7'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dalli/Downloads/Global+Superstore-Dallin_Stirling (1).xls' interpretationMode='0' password='' server='' validate='no' />
+          <named-connection caption='Global+Superstore-Ryan_Turley (1)' name='excel-direct.1e1bvfz0r6v6uj10weu0217knfm7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/dalli/Downloads/Global+Superstore-Ryan_Turley (1).xls' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1e1bvfz0r6v6uj10weu0217knfm7' name='Orders' table='[Orders$]' type='table'>
@@ -533,7 +533,7 @@
       <table>
         <view>
           <datasources>
-            <datasource caption='Orders (Global+Superstore-Dallin_Stirling (1))' name='federated.0icspn51rjcn7a17wtmdl1378rvz' />
+            <datasource caption='Orders (Global+Superstore-Ryan_Turley (1))' name='federated.0icspn51rjcn7a17wtmdl1378rvz' />
           </datasources>
           <mapsources>
             <mapsource name='Tableau' />
